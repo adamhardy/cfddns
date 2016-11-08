@@ -61,7 +61,7 @@ else
     cfRecordContentUpdated=$(cf_get_record_content)
     printf "Record for %s successfully updated to %s" $cfRecordName $cfRecordContentUpdated >> $logFile
   else
-    printf "Something went wrong. I know this isn't a very useful error.\n"
+    printf "Something went wrong. I know this isn't a very useful error. ¯\_(ツ)_/¯\n"
   fi
 fi
 
